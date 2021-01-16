@@ -1,0 +1,23 @@
+@import "../../../assets/styles/variables/index.scss";
+
+.header {
+    &__content {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        .title {
+            color: $color-gold
+        }
+    }
+
+    .divider {
+        margin: 0;
+        border-color: $color-gold;
+        border-bottom: thin;
+    }
+
+}

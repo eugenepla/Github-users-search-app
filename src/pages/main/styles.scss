@@ -1,0 +1,24 @@
+@import "../../assets/styles/variables/index.scss";
+
+.content {
+    width: 900px;
+
+    &__main {
+        display: flex;
+
+        &__left {
+        }
+
+        &__right {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-auto-rows: min-content;
+        }
+    }
+}
+
+@media only screen and (max-width: $md) {
+    .content__main {
+        display: none;
+    }
+}

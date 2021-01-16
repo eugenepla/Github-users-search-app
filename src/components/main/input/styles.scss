@@ -1,0 +1,36 @@
+@import "../../../assets/styles/variables/index.scss";
+
+.input__container {
+    padding-top: 10px;
+    padding-right: 10px;
+
+    .input {
+        height: 27px;
+        width: 250px;
+        border: 1px;
+        border-radius: 20px;
+        padding-left: 15px;
+        outline: none;
+    }
+}
+
+@media only screen and (max-width: $xlg) {
+    .input {
+      margin-left: 10px
+    }
+  }
+
+@media only screen and (max-width: $lg) {
+    .input {
+      max-width: 230px;
+      margin-left: 10px
+    }
+  }
+
+  @media only screen and (max-width: $xmd) {
+    .input {
+      max-width: 200px;
+    }
+  }  
+
+
