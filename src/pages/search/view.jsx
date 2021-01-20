@@ -1,23 +1,21 @@
 import './styles.scss'
-import React, { useEffect } from "react"
+import React from "react"
 import {
   Header,
-  Input,
+  SearchInput,
   Card
 } from '../../components'
 
-const View = () => {
+const View = ({ repositoriesList }) => {
 
-  useEffect(() => {
-
-  }, [])
+  console.log('repositoriesList', repositoriesList)
 
   return (
     <div className='content'>
       <Header />
       <div className='content__main'>
         <div className='content__main__left'>
-          <Input />
+          <SearchInput />
         </div>
         <div className='content__main__right'>
           <Card />

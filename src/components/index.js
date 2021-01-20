@@ -1,3 +1,3 @@
-export { Header } from './main/header'
-export { Input } from './main/input'
-export { Card } from './main/card'
+export { Header } from './search/header'
+export { SearchInput } from './search/input'
+export { Card } from './search/card'

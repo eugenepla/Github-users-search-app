@@ -1,11 +1,11 @@
 import './app.scss'
 import React from "react"
-import { PageMain } from './pages/main/index'
+import { PageSearch } from './pages/search/index'
 
 export default function App() {
   return (
     <div className='app'>
-      <PageMain />
+      <PageSearch />
     </div>
   )
 }
